@@ -154,3 +154,9 @@ margin-left: -10rem; */
   }
  
  
+  @media (max-width: 640px) {
+   .pabo {
+    padding-bottom: 3rem;
+   }
+      
+  }

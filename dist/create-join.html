@@ -8,70 +8,71 @@
   <link rel="stylesheet" href="application.css">
   <link rel="stylesheet" href="styles.css">
   <title>Areascout</title>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tagify/3.21.5/tagify.min.js"
+    integrity="sha512-HlsH/grgbtvw8pW6/FViblU2JJlbucoHK4ju0xxMRdSC00MjD/rrPvViL9HWYUv++Efo/unAsMasqB8yWeAd9w=="
+    crossorigin="anonymous"></script>
   <link rel="shortcut icon" type="image/png" href="../public/img/favicon/icon.png">
 </head>
 
 
-<body class="items-center justify-center">
+<body>
 
   <section id=" create-page ">
-    <div class=" min-h-screen bg-white flex">
-      <div class="flex-1 flex flex-col justify-between py-12 px-4 sm:px-6 lg:flex-none lg:w-1/2 max-w-3xl">
+    <div class="min-h-screen bg-white flex">
+
+      <div class="flex-1 flex flex-col justify-between pt-12 pb-96 pabo px-4 sm:px-6 lg:flex-none lg:w-1/2 max-w-3xl">
         <div class="mx-auto w-full text-left max-w-lg min-w-min">
-          <a href="http://127.0.0.1:5501/dist/index.html">
+          <a href="">
             <img class=" h-20 w-auto" src="../public/img/logo2.png" alt="">
           </a>
         </div>
 
-        <div class="mx-auto w-full text-left max-w-lg min-w-min">
+        <div class="mx-auto w-full  text-left max-w-lg min-w-min">
           <div>
             <h2 class="text-7xl font-bold text-gray-900">Welcome</h2>
-            <h3 class=" mt-6 mb-5 text-2xl  leading-7 font-bold text-blue text-secondary"> You're
-              just step away from reaching all
-              of your athletic goals!</h3>
+            <h3 class=" mt-6 mb-5 text-2xl font-semibold  leading-6"> Let's secure your account.
+            </h3>
           </div>
+
           <div class="class=" mt-10>
             <form action="">
               <div class="md:flex md:justify-left">
-                <div class="mb-10 w-full">
-                  <label for="email">
-                    <span class="text-lg font-bold ">What's your email address? </span>
-                    <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email"
-                      class="mt-1 appearance-none block w-full p-4 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary focus:border-primary focus:border-2 text-base"
+
+                <div class="md:mb-10 md:mr-6 w-full md:w-1/2"><label for="password"><span
+                      class="text-base font-semibold">Password</span><input type="password" id="password"
+                      name="password" autocomplete="new-password"
+                      class="mt-1 appearance-none block w-full p-4 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none  focus:ring-primary focus:border-primary focus:border-2 text-base"
                       required="" value="">
-                    <p class="text-xs text-red-500 mt-2"> </p>
-                  </label>
-                  <label for="email">
-                    <div class="mt-6">
-                      <span class="text-lg  font-bold ">What's your legal guardians email address *if under 18yo
-                      </span>
-                    </div>
-                    <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email"
-                      class="mt-1 appearance-none block w-full p-4 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary focus:border-primary focus:border-2 text-base"
+                    <p class="text-xs text-red-500 mt-2"></p>
+                  </label></div>
+                <div class="mb-10 w-full md:w-1/2 pt-6 md:pt-0"><label for="password"><span
+                      class="text-base font-semibold">Password confirmation</span><input type="password"
+                      id="passwordConfirmation" name="passwordConfirmation" autocomplete="new-password"
+                      class="mt-1 appearance-none block w-full p-4 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none  focus:ring-primary focus:border-primary focus:border-2 text-base"
                       required="" value="">
-                    <p class="text-xs text-red-500 mt-2"> </p>
-                  </label>
-                </div>
+                    <p class="text-xs text-red-500 mt-2"></p>
+                  </label></div>
+
               </div>
-              <a href="http://127.0.0.1:5501/dist/create-page2.html">
-                <button type="submit"
-                  class="text-sm duration-200 border font-medium focus:outline-none focus:ring-2 inline-flex items-center disabled:cursor-not-allowed whitespace-nowrap bg-neutral hover:bg-gray-600 text-white disabled:text-gray-200 disabled:bg-gray-700 justify-center rounded-md shadow-sm border-transparent py-2 px-4  btn-1 w-full flex h-10  cursor-pointer disabled:opacity-40 ">Next
-                  (1/3)
-                  <svg width="25px" height="25px" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4 12H20M20 12L16 8M20 12L16 16" stroke="white" stroke-width="2" stroke-linecap="round"
-                      stroke-linejoin="round" />
-                  </svg></button>
-              </a>
+              <button type="submit"
+                class="text-sm duration-200 border font-bold focus:outline-none focus:ring-2 inline-flex  disabled:cursor-not-allowed whitespace-nowrap bg-neutral hover:bg-gray-600 text-blue hover:text-white disabled:text-gray-200 disabled:bg-gray-700 justify-center rounded-md shadow-sm border-transparent py-2 px-4  btn-1 w-full flex  h-10 items-center cursor-pointer disabled:opacity-40 ">JOIN
+                AREA SCOUTS
+              </button>
             </form>
+            <div class="text-left mt-2">
+              <a class="text-sm text-blue-500 hover:underline" href="">Previous</a>
+            </div>
+            <div class="text-left mt-2">
+              <p class="text-xs text-gray-500 mt-12">By signing up, you agree to our <a
+                  href="https://app.areascouts.com/" class="underline">Terms of Use</a> and <a
+                  href="https://app.areascouts.com/privacy" class="underline">Privacy Policy</a>.</p>
+            </div>
           </div>
         </div>
 
-        <div class="mx-auto w-full text-left max-w-lg min-w-min py-8 text-sm whitespace-nowrap ">
-          <span class="block sm:inline font-bold">Already have an account? </span>
-          <a class="font-bold text-blue-500 hover:text-blue-800" href="http://127.0.0.1:5501/dist/athlete-page.html">Log
-            in</a>
-        </div>
+        <div class="mx-auto w-full text-left max-w-lg min-w-min py-8 text-sm whitespace-nowrap"><span
+            class="block sm:inline">Already have an account?&nbsp;<a class="text-blue-600 hover:text-blue-800"
+              href="/login">Log in</a></span></div>
       </div>
 
       <div class="athlete-activity bg-primary  hidden lg:flex relative w-0 flex-1 flex-col justify-center">
@@ -81,6 +82,7 @@
             Athlete
             Activity</h1>
         </div>
+
         <div class="mx-auto h-64 w-full bg-white rounded-2xl z-30 max-w-md mb-5">
           <div
             class="bg-white min-h-full flex flex-col justify-between  border-gray-200 p-4 rounded-xl border max-w-xl hover:border-blue-200">
@@ -101,7 +103,7 @@
               <p>I have been using <span class="text-blue-500">@AreaScouts</span> to write newsletters almost every
                 weekday
                 for the past 3 months with <span class="text-blue-500">@areasports</span></p>
-              <p>It's not even comparable how much better beehiiv is than other newsletter services</p>
+              <p>It's not even comparable how much better areasports is than other newsletter services</p>
               <p>- incredible customization</p>
               <p>- constant support</p>
               <p>- cleaner settings</p>
@@ -147,7 +149,7 @@
               <p>I have been using <span class="text-blue-500">@AreaScouts</span> to write newsletters almost every
                 weekday
                 for the past 3 months with <span class="text-blue-500">@areasports</span></p>
-              <p>It's not even comparable how much better beehiiv is than other newsletter services</p>
+              <p>It's not even comparable how much better areasports is than other newsletter services</p>
               <p>- incredible customization</p>
               <p>- constant support</p>
               <p>- cleaner settings</p>
@@ -170,6 +172,52 @@
                 </svg><span class="ml-3 text-sm">155</span></div>
             </div>
           </div>
+        </div>
+
+        <div class="mx-auto h-64 w-full bg-white rounded-2xl z-30 max-w-md mb-5">
+          <div
+            class="bg-white min-h-full flex flex-col justify-between  border-gray-200 p-4 rounded-xl border max-w-xl hover:border-blue-200">
+            <div class="flex justify-between">
+              <div class="flex items-center">
+                <div class="h-10 w-10 rounded-full mr-2 overflow-hidden flex justify-center items-center relative"><img
+                    class="rounded-full overflow-hidden" alt="areasport.eth" src="../public/img/sports 1.png"></div>
+                <div class="ml-1.5 text-sm leading-tight"><span
+                    class="text-black font-bold block ">areascouts</span><span
+                    class="text-gray-500 font-normal block mt-0">@areascouts</span></div>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+                <path
+                  d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z" />
+              </svg>
+            </div>
+            <div class="text-black block text-xs font-medium leading-snug my-2 leading-relaxed">
+              <p>I have been using <span class="text-blue-500">@AreaScouts</span> to write newsletters almost every
+                weekday
+                for the past 3 months with <span class="text-blue-500">@areasports</span></p>
+              <p>It's not even comparable how much better areasportsis than other newsletter services</p>
+              <p>- incredible customization</p>
+              <p>- constant support</p>
+              <p>- cleaner settings</p>
+              <p>- leading features</p>
+            </div>
+            <div class="text-gray-500 flex mt-0">
+              <div class="flex items-center mr-6"><svg class="fill-current h-4 w-auto" viewBox="0 0 24 24">
+                  <g>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965z">
+                    </path>
+                  </g>
+                </svg><span class="ml-3 text-sm">40</span></div>
+              <div class="flex items-center mr-6"><svg class="fill-current h-4 w-auto" viewBox="0 0 24 24">
+                  <g>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828c0 .108.044.286.12.403.142.225.384.347.632.347.138 0 .277-.038.402-.118.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67c0-.414-.335-.75-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176z">
+                    </path>
+                  </g>
+                </svg><span class="ml-3 text-sm">155</span></div>
+            </div>
+          </div>
+
         </div>
 
 
@@ -193,7 +241,7 @@
               <p>I have been using <span class="text-blue-500">@AreaScouts</span> to write newsletters almost every
                 weekday
                 for the past 3 months with <span class="text-blue-500">@areasports</span></p>
-              <p>It's not even comparable how much better beehiiv is than other newsletter services</p>
+              <p>It's not even comparable how much better areasportsis than other newsletter services</p>
               <p>- incredible customization</p>
               <p>- constant support</p>
               <p>- cleaner settings</p>
@@ -218,10 +266,13 @@
           </div>
 
         </div>
+
       </div>
-    </div>
+
+
     </div>
   </section>
+
 </body>
 
 </html>
