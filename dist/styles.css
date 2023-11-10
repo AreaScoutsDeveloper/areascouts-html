@@ -1,0 +1,156 @@
+/* .bg-orange {
+  background-color: #ED7023 !important;
+}
+
+.bg-blue {
+  background-color: #16345F !important;
+}
+
+.bg-gray {
+  background-color: #C0BDBC !important;
+}
+
+.bg-green {
+  background-color: #21ba45 !important;
+}
+
+.text-orange {
+  color: #ED7023 !important;
+}
+
+.text-blue {
+ color: #16345F !important;
+}
+
+.text-gray {
+  background-color: #C0BDBC !important;
+}
+
+.text-green {
+  background-color: #21ba45 !important;
+} */
+
+
+.wrapper {
+  background-color: white;
+  padding: 2rem;
+ box-shadow:  0 1rem 2rem rgba(color-black, 0.10);
+}
+.log-in {
+  margin-top: -50rem;
+}
+.login {
+
+  color: #153560;
+  font-weight: 700;
+  margin-top: -1rem;
+
+}
+
+.card {
+  height: 30rem;
+  padding: auto;
+
+ 
+ 
+}
+.btn {
+  height: 9rem;
+  width: 100%;
+  border: none;
+  /* border-radius: 10px; */
+  font-weight: 700;
+  transition: all 0.2s;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+}
+
+.btn-1 {
+  width: 315px;
+  height: 58px;
+  box-shadow: rgba(32, 155, 241, 0.25) 6px 6px 0px;
+  font-size: 22px;
+  line-height: 41px;
+ 
+  text-align: center;
+  background-color: #C0BDBC;
+}
+
+.btn-2 {
+  width: 100%;
+  height: 58px;
+  box-shadow: rgba(32, 155, 241, 0.25) 6px 6px 0px;
+  font-size: 22px;
+  line-height: 41px;
+ 
+  text-align: center;
+  background-color: #C0BDBC;
+}
+
+
+
+
+.log-in1 {
+  margin-top: -4rem;
+  border-radius: 1rem;
+}
+
+/* .box {
+  position: absolute;
+margin-top: 5rem;
+
+} */
+
+.create{
+  background-color: rgba(32, 155, 241, 0.2);
+}
+
+.signup {
+  padding: .4rem 2rem;
+  border-radius: 7rem;
+}
+
+.athlete-activity {
+ border-radius: 2rem;
+ justify-content: center;
+align-items: center;
+}
+
+.activity{
+padding: .5rem 7rem;
+  margin-bottom: 1rem;
+  border-radius: 15rem;
+}
+
+  /*createpage-3 */
+
+
+  .asid-description {
+    width: 800px;
+    min-width: 800px;
+    max-width: 800px;
+    max-height: 100vh;
+    margin: 0px auto;
+  }
+
+  .asid {
+/* width: 30rem;
+margin-left: -10rem; */
+  }
+
+ 
+
+  @media (max-width: 800px) {
+    .asid-description {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+    }
+    .asid {
+      margin-left: -3rem;
+      width: 20rem;
+        }
+      
+  }
+ 
+ 
