@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="application.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Areascout</title>
+  <script src="country.js"></script>
+  <link rel="shortcut icon" type="image/png" href="../public/img/favicon/icon.png">
+</head>
+
+
+<body class="items-center justify-center">
+
+  <section id="asid#">
+
+    <div>
+      <div class="w-full bg-gray-100 h-1">
+        <div class=" bg-primary-400 h-1 transition-all"></div>
+      </div>
+      <div class="asid-description bg-white rounded p-8">
+        <div>
+          <div class="flex items-center justify-center sm:flex-col md:flex-row lg:flex-wrap xl:flex-nowrap">
+            <img src="../public/img/logo2.png" alt="">
+          </div>
+
+          <div class="mt-5 ">
+            <form class="relative w-full py-8 space-y-8 sm:space-y-16">
+              <h1 class="px-2 font-sans text-left font-bold  lg:text-2xl sm:text-base leading-snug text-secondary">
+                <span class="text-lg sm:text-base md:text-lg lg:text-xl xl:text-2xl">Now, let me assist you in making
+                  sure that you are assigned to the correct Area... </span>
+              </h1>
+              <div class="flex justify-center items-center flex-col gap-6 -mt-8">
+                <div class="relative flex flex-col">
+                  <label for="country" class="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500"></label>
+                  <span class="font-bold">Country</span>
+                  <select
+                    class="w-96 px-4 py-3 bg-white  border border-gray-300 rounded-md shadow-sm text-lg  cursor-pointer"
+                    name="" id="country">
+                    <option value="">Select an option</option>
+                  </select>
+                </div>
+
+                <div class="relative flex flex-col">
+                  <label for="state" class="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500"></label>
+                  <span class="font-bold">State, Province, or Subdivision</span>
+                  <select
+                    class="w-96 px-4 py-3 bg-white  border border-gray-300 rounded-md shadow-sm text-lg cursor-pointer"
+                    name="" id="state">
+                    <option value="">Select an option</option>
+                  </select>
+                </div>
+
+                <div class="relative flex flex-col">
+                  <label for="city" class="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500"></label>
+                  <span class="font-bold">City</span>
+                  <select
+                    class="w-96 px-4 py-3 bg-white  border border-gray-300 rounded-md shadow-sm text-lg  cursor-pointer"
+                    name="" id="city">
+                    <option value="">Select an option</option>
+                  </select>
+                </div>
+
+                <div class="relative flex flex-col">
+                  <label for="Zip" class="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500"></label>
+                  <span class="font-bold">Territory (Postal/Zip) </span>
+                  <select
+                    class="w-96 px-4 py-3 bg-white  border border-gray-300 rounded-md shadow-sm text-lg  cursor-pointer"
+                    name="" id="zip">
+                    <option value="">Select an option</option>
+                  </select>
+                </div>
+                <!-- <button type="submit" class="w-96 px-4 py-3 bg-secondary text-white rounded-lg shadow-md cursor-pointer">
+                  Submit
+                </button> -->
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+</body>
+
+</html>
