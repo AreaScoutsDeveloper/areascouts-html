@@ -352,6 +352,9 @@ font-size: 1.9rem;
 }
 
 @media only screen and (max-width: 460px) {
+  .ui-top{
+    margin-top: 5rem;
+  }
 .content {
   font-size: 1.2rem;
   text-align: justify;
@@ -379,8 +382,6 @@ font-size: 1.9rem;
 
   .description p {
     font-size: 17px;
-    
-    
   }
 
  

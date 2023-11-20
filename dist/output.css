@@ -606,6 +606,11 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .-mt-20 {
   margin-top: -5rem;
 }
@@ -1197,6 +1202,11 @@ video {
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(237 112 35 / var(--tw-text-opacity));
 }
 
 .text-red-500 {
